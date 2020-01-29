@@ -26,6 +26,6 @@ func TestArrayTravel(t *testing.T) {
 
 func TestArraySection(t *testing.T) {
 	arr := [...]int{1, 2, 3, 4, 5}
-	arr_sec := arr[0]
-	t.Log(arr_sec)
+	arrSec := arr[0]
+	t.Log(arrSec)
 }
