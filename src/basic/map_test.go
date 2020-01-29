@@ -1,4 +1,4 @@
-package basic_try
+package basic
 
 import "testing"
 
@@ -27,7 +27,7 @@ func TestAccessNotExistKey(t *testing.T) {
 }
 
 func TestMapTravel(t *testing.T) {
-	m1 := map[int]int{1: 1, 2: 4, 3: 9}
+	m1 := map[int]string{1: "a", 2: "b", 3: "c"}
 	for k, v := range m1 {
 		t.Log(k, v)
 	}

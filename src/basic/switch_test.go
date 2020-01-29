@@ -1,15 +1,15 @@
-package basic_try
+package basic
 
 import (
 	"testing"
 )
 
-func TestSwitchMultiCase(t *testing.T)  {
-	for i:=0;i<5;i++ {
+func TestSwitchMultiCase(t *testing.T) {
+	for i := 0; i < 5; i++ {
 		switch i {
-		case 0,2:
+		case 0, 2:
 			t.Log("Even")
-		case 1,3:
+		case 1, 3:
 			t.Log("Odd")
 		default:
 			t.Log("it's not 0-3")
@@ -18,7 +18,7 @@ func TestSwitchMultiCase(t *testing.T)  {
 }
 
 func TestSwitchCondition(t *testing.T) {
-	for i:=0;i<5;i++ {
+	for i := 0; i < 5; i++ {
 		switch {
 		case i%2 == 0:
 			t.Log("Even")
