@@ -29,7 +29,7 @@ func TestCounterThreadSafe(t *testing.T) {
 			counter++
 		}()
 	}
-	// time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 1)
 	t.Logf("counter = %d", counter)
 }
 
