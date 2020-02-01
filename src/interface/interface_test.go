@@ -1,4 +1,4 @@
-package basic
+package interface_test
 
 import "testing"
 

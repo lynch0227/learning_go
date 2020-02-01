@@ -1,4 +1,5 @@
-package basic
+//共享内存并发机制
+package sharemem
 
 import (
 	"sync"
