@@ -1,4 +1,4 @@
-//使用channel close取消任务
+//取消任务
 package channel_test
 
 import (
