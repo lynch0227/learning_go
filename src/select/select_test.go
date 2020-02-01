@@ -1,4 +1,4 @@
-package _select
+package select_test
 
 import (
 	"fmt"
